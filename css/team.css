@@ -1,0 +1,138 @@
+.team {
+    font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     margin: auto ;
+     width: 1200px;
+}
+
+.team_title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 22px;
+}
+
+.team_main_title {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 46px;
+}
+
+.team_main_title:after {
+    content: "";
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
+}
+
+.team_main_text {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+.team_card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 80px;
+}
+
+.team_card {
+    width: 380px;
+}
+
+.team_card_img {
+    width: 380px;
+    margin: auto;
+}
+
+.team_card_text_wrapper {
+    text-align: center;
+}
+
+.member_name {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 31px;
+}
+
+.member_profession {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+    font-size: 15px;
+}
+
+
+.hidden_box {
+    width: 380px;
+    height: 470px;
+    position: relative;
+}
+
+.hidden_box:hover > .social_hidden {
+    opacity: 1;
+    transition: 0.3s linear;
+    transform: translate(-10px, -10px);
+}
+
+.hidden_box:hover > .team_card_img {
+    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    transform: translate(-10px, -10px);
+    transition: 0.3s linear;
+
+}
+
+
+.social_hidden {
+    font-size: 0;
+    width: 380px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(239, 137, 138, 0.8), rgba(241, 216, 135, 0.8));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.social_link {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin-right: 1px;
+    background-color: #fce38a;
+    position: relative;
+}
+
+.social_link:last-child {
+    margin-right: 0px;
+}
+
+.social_link:hover {
+    background-color: #95e1d3;
+}
+
+.social_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}

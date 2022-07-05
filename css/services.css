@@ -1,0 +1,135 @@
+.services {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: auto ;
+    width: 1200px;
+    padding-top: 170px;
+}
+
+.services_title {
+   font-family: 'Kaushan Script', cursive;
+   font-size: 24px;
+   font-weight: 400;
+   color: #333333;
+   margin-bottom: 22px;
+}
+
+.services_main_title {
+   color: #333333;
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 64px;
+}
+
+.services_main_title:after {
+   content: "";
+   width: 61px;
+   height: 4px;
+   background-color: #F38181;
+   display: block;
+   margin: auto;
+   margin-top: 41px;
+
+}
+
+.card_container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.services_card {
+   width: 330px;
+   margin-bottom: 100px;
+}
+
+.card_title {
+   font-size: 14px;
+   font-weight: 400;
+   color: #333333;
+   text-align: left;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   width: 100%;
+}
+
+.first_card:before {
+   content: "";
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background-image: url(../image/icons/alarm_icon.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   vertical-align: middle;
+   margin-right: 30px;
+}
+
+.second_card:before {
+   content: "";
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background-image: url(../image/icons/line_graph_icon.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   vertical-align: middle;
+   margin-right: 30px;
+}
+
+.third_card:before {
+   content: "";
+   display: inline-block;
+   width: 36px;
+   height: 32px;
+   background-image: url(../image/icons/computer_icon.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   vertical-align: middle;
+   margin-right: 30px;
+}
+
+.fourth_card:before {
+   content: "";
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background-image: url(../image/icons/book_icon.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   vertical-align: middle;
+   margin-right: 30px;
+}
+
+.fifth_card:before {
+   content: "";
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background-image: url(../image/icons/home_icon.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   vertical-align: middle;
+   margin-right: 30px;
+}
+
+.sixth_card:before {
+   content: "";
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background-image: url(../image/icons/image_icon.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   vertical-align: middle;
+   margin-right: 30px;
+}
+
+.card_text {
+   color: #999999;
+   font-size: 15px;
+   font-weight: 400;
+   font-family: 'Roboto', sans-serif;
+   padding-left: 60px;
+   text-align: left;
+}
